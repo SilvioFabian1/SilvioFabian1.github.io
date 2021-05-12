@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+    <head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio SilvioFabian</title>
-    
-</head>
-<body>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio SilvioFabian</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet"> 
+        
+    </head>
+    <body>
+        
+        <header>
 
-    <p>Olá Meu nome é <strong>Silvio Fabian</strong></p>
+            <img class="logotipo" src="imgs/logo.png">
 
-    <img id="foto" src="imgs/Minha foto.jpeg" alt="Minha foto">
+        </header>
 
-    <p>Me chamo Sílvio, <em>tenho 19 anos</em>, sou Estudante de desenvolvimento Web, sou natural de <a href="https://www.google.com/maps/place/Caruaru+-+Picada,+Caruaru+-+PE/@-8.1875808,-36.1562529,11z/data=!3m1!4b1!4m5!3m4!1s0x7a98b96e8d7fd6d:0xa30a5c7c9e363ef5!8m2!3d-8.276018!4d-35.9819367" target="_blank">Caruaru-PE</a></p>
+        <nav>
 
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git e GitHub</li>
-        <li>Javascrip</li>
-        <li>Gnu/Linux</li>
-    </ul>
+                <p class="barra-nav"><a href="#texto1">Sobre</a></p>
+                <p class="barra-nav"><a href="#foto">Foto</a></p>
+                <p class="barra-nav"><a href="#blog">Links</a></p>
+                <p class="barra-nav"><a href="#habilidades">Habilidades</a></p>
 
-    <a href="#foto">Minha foto</a>
+        </nav>
 
-    <p>Um blog que eu gosto é o <a href="https://adrenaline.com.br" target="_blank">Adrenaline</a></p>
+        <article>
+            
+            <img id="foto" src="imgs/Minha foto.jpeg" alt="Minha foto">
 
-</body>
+            <p class="texto1" id="texto1" >Me chamo Sílvio, <em>tenho 19 anos</em>, sou Estudante de desenvolvimento Web, sou natural de <a href="https://www.google.com/maps/place/Caruaru+-+Picada,+Caruaru+-+PE/@-8.1875808,-36.1562529,11z/data=!3m1!4b1!4m5!3m4!1s0x7a98b96e8d7fd6d:0xa30a5c7c9e363ef5!8m2!3d-8.276018!4d-35.9819367" target="_blank">Caruaru-PE</a></p>
+
+            <ul class="habilidades" id="habilidades">
+                <p>Habilidades</p>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git e GitHub</li>
+                <li>Javascrip</li>
+                <li>Gnu/Linux</li>
+            </ul>
+
+            <p class="blog" id="blog">Um blog que eu gosto é o <a href="https://adrenaline.com.br" target="_blank">Adrenaline</a></p>
+
+        </article>
+    </body>
 </html>
