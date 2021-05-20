@@ -7,52 +7,232 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfólio SilvioFabian</title>
         <link href="css/style.css" type="text/css" rel="stylesheet">
-        <link href="imgs/user.png" rel="icon" sizes="32x32"> 
+        <link href="img/user.png" rel="icon" sizes="32x32"> 
         
     </head>
     <body>
-
-        <div class="header">
-
-                <img class="logotipo" src="imgs/logo.png">
-
-                <a class="nav-bar" href="#texto1">Sobre</a>
-                <a class="nav-bar" href="#foto">Foto</a>
-                <a class="nav-bar" href="#blog">Redes Sociais</a>
-                <a class="nav-bar" href="#habilidades">Habilidades</a>
-
-        </div>
-
-        <div class="clear"></div>
-
-        <div class="article">
-            
-            <img id="foto" src="imgs/Minha foto.jpeg" alt="Minha foto">
-
-            <p class="texto1" id="texto1" >Olá, meu nome é Sílvio, <em>tenho 19 anos</em>, sou estudante de Desenvolvimento Web, sou natural de <a href="https://www.google.com/maps/place/Caruaru+-+Picada,+Caruaru+-+PE/@-8.1875808,-36.1562529,11z/data=!3m1!4b1!4m5!3m4!1s0x7a98b96e8d7fd6d:0xa30a5c7c9e363ef5!8m2!3d-8.276018!4d-35.9819367" target="_blank">Caruaru-PE</a></p>
-
-            <div id="habilidades">
-                
-                <h1>Habilidades:</h1>
-
-                <img src="imgs/html.png" alt="HTML5">
-                <img src="imgs/css.png" alt="CSS3">
-                <img src="imgs/js.png" alt="JavaScript">
-                <img src="imgs/github.png" alt="GitHub">
-                <img src="imgs/git.png" alt="Git">
-                <img src="imgs/linux.png" alt="Gnu/Linux">
-
+        <!-- Header -->
+        <section id="header">
+          <div class="header container">
+            <div class="nav-bar">
+              <div class="brand">
+                <a href="#hero">
+                  <h1><span>S</span>ilvio <span>F</span>abian</h1>
+                </a>
+              </div>
+              <div class="nav-list">
+                <div class="hamburger">
+                  <div class="bar"></div>
+                </div>
+                <ul>
+                  <li><a href="#hero" data-after="Home">Home</a></li>
+                  <li><a href="#services" data-after="Habilidades">Habilidades</a></li>
+                  <li><a href="#projects" data-after="Projetos">Projetos</a></li>
+                  <li><a href="#about" data-after="Sobre">Sobre</a></li>
+                  <li><a href="#contact" data-after="Contato">Contato</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
+        </section>
+        <!-- End Header -->
+        <!-- hero section -->
+        <section id="hero">
+            <div class="hero container">
+                <div>
+                    <h1>Olá, <span></span></h1>
+                    <h1>Meu Nome É <span></span></h1>
+                    <h1>Sílvio <span></span></h1>
 
-            <div id="blog">
-
-                <p>Me siga no <a href="https://www.linkedin.com/in/silvio-fabian/" target="_blank">LinkedIn</a></p>
-                <p>Me siga no <a href="https://www.instagram.com/silvio_fabian/" target="_blank">Instagram</a></p>
-                <p>Me siga no <a href="https://github.com/SilvioFabian1" target="_blank">GitHub</a></p>
-
-
+                    <a href="#projects" type="button" class="cta">Portfólio</a>
+                </div>
             </div>
-           
-        </div>
+        </section>
+        <!-- End Hero section -->
+
+        <!-- Service Section -->
+
+        <section id="services">
+            <div class="services container">
+                <div class="service-top">
+                    <h1 class="section-title">Habil<span>i</span>dades</h1>
+                    <p>Estas são as Habilidades que possuo.</p>
+                </div>
+                <div class="service-bottom">
+                    <div class="service-item">  
+                        <div class="icon"><img src="https://img.icons8.com/color/96/000000/git.png"/></div>
+                        <h2>Git</h2>
+                        <p>Domínio de Git e GitHub</p>
+                     </div>
+
+                     <div class="service-item">  
+                        <div class="icon"><img src="https://img.icons8.com/color/96/000000/html-5--v1.png"/></div>
+                        <h2>HTML5</h2>
+                        <p>Domínio do HTML5</p>
+                     </div>
+
+                     <div class="service-item">  
+                        <div class="icon"><img src="https://img.icons8.com/color/96/000000/css3.png"/></div>
+                        <h2>CSS3</h2>
+                        <p>Domínio do CSS3</p>
+                     </div>
+
+                     <div class="service-item">  
+                        <div class="icon"><img src="https://img.icons8.com/color/96/000000/javascript.png"/></div>
+                        <h2>JavaScript</h2>
+                        <p>Aprendendo Jaavascript.</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Service Section -->
+
+        <!-- Projects Section -->
+
+        <section id="projects">
+          <div class="projects container">
+            <div class="projects-header">
+              <h1 class="section-title">Projetos <span>Recentes</span></h1>
+            </div>
+            <div class="all-projects">
+              <div class="project-item">
+                <div class="project-info">
+                  <h1>Projeto 1</h1>
+                  <h2>Coming soon</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                    rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                    harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+                </div>
+                <div class="project-img">
+                  <img src="img/img-1.png" alt="img">
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-info">
+                  <h1>Projeto 2</h1>
+                  <h2>Coming soon</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                    rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                    harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+                </div>
+                <div class="project-img">
+                  <img src="img/img-1.png" alt="img">
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-info">
+                  <h1>Projeto 3</h1>
+                  <h2>Coming soon</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                    rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                    harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+                </div>
+                <div class="project-img">
+                  <img src="img/img-1.png" alt="img">
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-info">
+                  <h1>Projeto 4</h1>
+                  <h2>Coming soon</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                    rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                    harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+                </div>
+                <div class="project-img">
+                  <img src="img/img-1.png" alt="img">
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-info">
+                  <h1>Projeto 5</h1>
+                  <h2>Coming soon</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                    rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                    harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+                </div>
+                <div class="project-img">
+                  <img src="img/img-1.png" alt="img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Projects Section -->
+
+        <!-- About Section -->
+
+        <section id="about">
+            <div class="about container">
+                <div class="col-left">
+                    <div class="about-img">
+                        <img src="img/Minha_foto.jpeg" alt="img">
+                    </div>
+                </div>
+                <div class="col-right">
+                    <h1 class="section-title">Sobre <span>Mim</span></h1>
+                    <h2>FullStack Developer</h2>
+                    <p>Sou apaixonado por Tecnologia, desenvolvimento e marcas que trabalham pelo bem das pessoas.
+
+                      Meu objetivo é aprender, aplicar e aprimorar, cada vez mais, conhecimentos na área de programação.
+                      
+                      Estudo Desenvolvimento Web na Trybe, uma escola que em sua metodologia de ensino provoca em seus alunos uma experiência real do dia a dia de trabalho de um desenvolvedor de software , com muito trabalho em equipe e mão na massa. Trabalho e acredito em ações que possam gerar um impacto positivo na vida das pessoas.</p>
+                    <a href="https://github.com/SilvioFabian1" class="cta" target="_blank">Meu repositório</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- End About Section -->
+
+        <!-- Contact Section -->
+
+        <section id="contact">
+            <div class="contact container">
+                <div><h1 class="section-title">Informações de <span>Contato</span></h1></div>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/></div>
+                        <div class="contact-info">
+                            <h1>LinkedIn</h1>
+                            <h2><a href="https://www.linkedin.com/in/silvio-fabian/" target="_blank">/silvio-fabian</a></h2>
+                        </div>
+                    </div> 
+                    <div class="contact-item">
+                        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" alt="img"></div>
+                        <div class="contact-info">
+                            <h1>E-mail</h1>
+                            <h2>dev.silviofabian@gmail.com</h2>
+                        </div>
+                    </div> 
+                    <div class="contact-item">
+                        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" alt="img"></div>
+                        <div class="contact-info">
+                            <h1>Localização</h1>
+                            <h2>Caruaru, Pernambuco, Brasil</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Contact Section -->
+
+        <!-- Footer -->
+        <section id="footer">
+          <div class="footer container">
+            <div class="brand"><h1><span>S</span>ilvio <span>F</span>abian</h1></div>
+            <h2>Desenvolvedor FullStack</h2>
+            <div class="social-icon">
+              <div class="social-item">
+                <a href="https://www.instagram.com/silvio_fabian/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+              </div>
+            </div>
+            <p>Copyright © 2021. All rights reserved</p>
+          </div>
+        </section>
+        <!-- End Footer -->
+        <script src="app.js"></script>
+
     </body>
 </html>
